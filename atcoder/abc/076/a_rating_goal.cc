@@ -3,8 +3,7 @@
 int main() {
   std::ios_base::sync_with_stdio(false);
   std::cin.tie(nullptr);
-  int r;
-  int g;
+  int r, g;
   std::cin >> r >> g;
 
   const int next_perf = 2 * g - r;

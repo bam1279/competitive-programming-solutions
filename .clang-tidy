@@ -1,0 +1,7 @@
+Checks: '*,
+  -llvmlibc-*,
+  -cppcoreguidelines-init-variables,
+  -modernize-use-trailing-return-type'
+CheckOptions:
+  - key: readability-identifier-length.MinimumVariableNameLength
+    value: 1

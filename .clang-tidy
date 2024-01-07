@@ -1,6 +1,7 @@
 Checks: '*,
   -llvmlibc-*,
   -cppcoreguidelines-init-variables,
+  -hicpp-braces-around-statements,
   -modernize-use-trailing-return-type,
   -readability-braces-around-statements,
   -readability-isolate-declaration'

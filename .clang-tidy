@@ -7,5 +7,7 @@ Checks: '*,
   -readability-braces-around-statements,
   -readability-isolate-declaration'
 CheckOptions:
+  - key: readability-identifier-length.MinimumParameterNameLength
+    value: 1
   - key: readability-identifier-length.MinimumVariableNameLength
     value: 1

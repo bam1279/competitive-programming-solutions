@@ -1,6 +1,7 @@
 Checks: '*,
   -llvmlibc-*,
   -altera-*,
+  -bugprone-exception-escape,
   -cppcoreguidelines-init-variables,
   -hicpp-braces-around-statements,
   -modernize-use-trailing-return-type,

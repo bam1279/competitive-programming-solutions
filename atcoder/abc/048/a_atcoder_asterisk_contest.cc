@@ -31,7 +31,8 @@ int main() {
   std::cin >> atcoder >> s >> contest;
 
   try {
-    const std::string abbreviation = {atcoder.front(), s.front(), contest.front()};
+    const std::string abbreviation = {atcoder.front(), s.front(),
+                                      contest.front()};
     std::cout << abbreviation << '\n';
   } catch (const std::exception& e) {
     std::cerr << e.what() << '\n';
